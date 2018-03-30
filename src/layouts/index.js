@@ -3,6 +3,9 @@ import Link from 'gatsby-link'
 import { Container } from 'react-responsive-grid'
 
 import { rhythm, scale } from '../utils/typography'
+// Import typefaces
+import 'typeface-alegreya'
+import 'typeface-alegreya-sans'
 
 class Template extends React.Component {
   render() {
@@ -39,9 +42,9 @@ class Template extends React.Component {
       header = (
         <h3
           style={{
-            fontFamily: 'Montserrat, sans-serif',
+            fontFamily: 'Alegreya Sans, sans-serif',
             marginTop: 0,
-            marginBottom: rhythm(-1),
+            marginBottom: rhythm(1),
           }}
         >
           <Link
